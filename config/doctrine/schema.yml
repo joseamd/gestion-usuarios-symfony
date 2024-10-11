@@ -1,0 +1,16 @@
+User:
+  tableName: users
+  columns:
+    id:
+      type: integer
+      primary: true
+      autoincrement: true
+    username:
+      type: string(255)
+      notnull: true
+    password:
+      type: string(255)
+      notnull: true
+    email:
+      type: string(255)
+      notnull: true
