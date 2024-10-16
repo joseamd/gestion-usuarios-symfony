@@ -13,9 +13,9 @@
         </div>
 
         <div class="form-group row">
-            <label for="password" class="col-sm-2 col-form-label">Contraseña:</label>
+            <!-- <label for="password" class="col-sm-2 col-form-label">Contraseña:</label> -->
             <div class="col-sm-10">
-                <?php echo $form['password']->render(array('class' => 'form-control', 'id' => 'password')) ?>
+                <?php echo $form['password']->render(array('class' => 'form-control', 'id' => 'password' , 'type' => 'hidden')) ?>
             </div>            
         </div>
 
