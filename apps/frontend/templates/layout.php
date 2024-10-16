@@ -19,7 +19,7 @@
     <!-- Menú Desplegable -->
     <div class="dropdown">
         <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <img src="/images/user-icon-png.webp" alt="Usuario" style="width: 40px; height: 40px; border-radius: 50%;">
+            <img src="/images/user.png" alt="Usuario" style="width: 40px; height: 40px; border-radius: 50%;">
         </button>
         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
             <a class="dropdown-item" href="<?php echo url_for('user/configuration') ?>">Configuración</a>
